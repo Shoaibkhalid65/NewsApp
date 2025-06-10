@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="see_full_story">See Full Story</string>
+    <string name="search">Search</string>
+    <string name="internet_not_connected_retry">Internet Not Connected! Retry</string>
+    <string name="refresh">Refresh</string>
+</resources>

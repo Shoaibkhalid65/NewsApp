@@ -1,0 +1,63 @@
+[versions]
+agp = "8.6.1"
+coil = "2.5.0"
+converterMoshi = "3.0.0"
+converterMoshiVersion = "3.0.0"
+fastadapter = "5.7.0"
+kotlin = "2.1.10"
+coreKtx = "1.16.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.1"
+kotlinxCoroutinesAndroid = "1.10.2"
+lifecycleViewmodelKtx = "2.9.1"
+loggingInterceptor = "5.0.0-alpha.15"
+material = "1.12.0"
+activity = "1.10.1"
+constraintlayout = "2.2.1"
+moshi = "1.15.2"
+moshiKotlin = "1.15.0"
+retrofit = "3.0.0"
+retrofit2KotlinCoroutinesAdapter = "0.9.2"
+roomPaging = "2.7.1"
+viewpager2 = "1.1.0"
+coreAnimation = "1.0.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomPaging" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomPaging" }
+androidx-room-paging = { module = "androidx.room:room-paging", version.ref = "roomPaging" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomPaging" }
+androidx-viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
+coil = { module = "io.coil-kt:coil", version.ref = "coil" }
+converter-moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "converterMoshi" }
+converter-moshi-v300 = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "converterMoshiVersion" }
+fastadapter = { module = "com.mikepenz:fastadapter", version.ref = "fastadapter" }
+fastadapter-extensions-binding = { module = "com.mikepenz:fastadapter-extensions-binding", version.ref = "fastadapter" }
+fastadapter-extensions-diff = { module = "com.mikepenz:fastadapter-extensions-diff", version.ref = "fastadapter" }
+fastadapter-extensions-utils = { module = "com.mikepenz:fastadapter-extensions-utils", version.ref = "fastadapter" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesAndroid" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "loggingInterceptor" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
+moshi-kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshiKotlin" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "converterMoshi" }
+retrofit-v300 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit2-kotlin-coroutines-adapter = { module = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter", version.ref = "retrofit2KotlinCoroutinesAdapter" }
+androidx-core-animation = { group = "androidx.core", name = "core-animation", version.ref = "coreAnimation" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
