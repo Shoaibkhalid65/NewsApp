@@ -29,7 +29,7 @@ A modern **Kotlin-based Android news app** that follows the **MVVM architecture*
 ## 📦 Project Structure
 
 ```text
-com.gshoai999.newsapp
+com.gshoai998.newsapp
 ├── model
 │   ├── api
 │   │   ├── ApiService.kt
