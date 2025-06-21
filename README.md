@@ -105,6 +105,11 @@ com.gshoai998.newsapp
 ![ArticleWebViewActivity](https://github.com/user-attachments/assets/5043bda4-645a-4d95-9fc6-b3d54a626ca0)
 ---
 
+## 📸 Video
+
+https://github.com/user-attachments/assets/b0994b8a-ac1e-469d-8fb3-f77f7858935d
+
+
 ## 📚 Architecture Overview
 
 This app uses the **MVVM pattern** to ensure a clean separation of concerns:
