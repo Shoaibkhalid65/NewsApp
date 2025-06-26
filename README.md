@@ -90,20 +90,6 @@ com.gshoai998.newsapp
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 MainActivity
-![MainActivity](https://github.com/user-attachments/assets/464e0d68-2464-44fc-82dd-966be2fe957c)
-
-### 📴 OfflineActivity
-![OfflineActivity](https://github.com/user-attachments/assets/965a50b4-0c3e-4ded-811f-8fb8ead4d030)
-
-### 📰 ArticleDetailActivity
-![ArticleDetailActivity](https://github.com/user-attachments/assets/2c3f9484-fb7d-40b5-9cd8-8c3edad6e452)
-
-### 🌐 ArticleWebViewActivity
-![ArticleWebViewActivity](https://github.com/user-attachments/assets/5043bda4-645a-4d95-9fc6-b3d54a626ca0)
----
 
 ## 📸 Video
 
